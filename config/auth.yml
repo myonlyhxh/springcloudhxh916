@@ -9,6 +9,12 @@ auth:
   clientSecret: hxh916App
   cookieDomain: hxh916.com
   cookieMaxAge: -1
+encrypt:
+  key-store:
+    location: classpath:/hxh.keystore
+    secret: huxiaohuikeystore
+    alias: hxhkey
+    password: huxiaohui
 eureka:
   client:
     serviceUrl:
