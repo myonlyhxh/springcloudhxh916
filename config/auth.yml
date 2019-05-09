@@ -15,7 +15,4 @@ encrypt:
     secret: huxiaohuikeystore
     alias: hxhkey
     password: huxiaohui
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8888/eureka/
+
