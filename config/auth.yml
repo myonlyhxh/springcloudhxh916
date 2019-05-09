@@ -1,8 +1,10 @@
-spring:
-  application:
-    name: authorization-server
 server:
   port: 8766
+spring:
+  application:
+    name: auth
+  profiles:
+    active: dev
 auth:
   tokenValiditySeconds: 1200  #token存储到redis的过期时间
   clientId: hxh916App
